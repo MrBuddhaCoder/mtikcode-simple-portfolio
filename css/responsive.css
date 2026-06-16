@@ -85,15 +85,8 @@
 
     /** SKILLS **/
     .skills__grid_container {
-        grid-template-columns: repeat(1, minmax(200px, 1fr));
-        grid-template-rows: repeat(4, minmax(280px, auto));
-        /* grid-template-rows: repeat(2, minmax(280px, auto)); */
-        /* grid-auto-rows: minmax(280px, auto); */
-
         & .skills__grid_item {
             padding: 1rem 1rem;
-            grid-column: span 1 !important;
-            grid-row: span 1 !important;
         }
     }
 }
